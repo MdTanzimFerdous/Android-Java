@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:background="@drawable/custom_edit_text"
+        android:id="@+id/editText1Id"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Enter a number"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@null"
+        />
+    <EditText
+        android:id="@+id/editText2Id"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_edit_text"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Enter a number"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@null"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/button2ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUB" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be here!"
+        android:textSize="30dp">
+    </TextView>
+
+</LinearLayout>
